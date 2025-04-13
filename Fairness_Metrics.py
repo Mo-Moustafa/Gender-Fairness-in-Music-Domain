@@ -4,7 +4,7 @@ import math
 def compute_recGap(metric_by_gender):
 
     rec_gap = abs(metric_by_gender['m'] - metric_by_gender['f'])
-    print("RecGap Score:", rec_gap)
+    print("RecGap Score:", rec_gap, "\n")
 
 
 def compute_compounding_factor(df, metric_by_gender, epsilon=1e-10):
